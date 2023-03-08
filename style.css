@@ -1,0 +1,28 @@
+.row-container {
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    width: 19.5%;
+}
+.item {
+    margin-bottom: 4%;
+}
+img {
+    width: 100%;
+}
+.hashtag-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.hashtag-item {
+    background-color: rgb(221, 228, 234);
+    padding: 0 2% 1% 2%;
+    border-radius: 3px;
+}
+.hashtag-item:not(:last-child) {
+    margin-right: 1%;
+}
+.hashtag-item:nth-child(2n) {
+    background-color: rgb(210, 223, 238);
+}
